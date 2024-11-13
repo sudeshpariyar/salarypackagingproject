@@ -1,0 +1,18 @@
+.salary{
+    padding: 2rem;
+}
+.salary__form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+input,select{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+button{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
