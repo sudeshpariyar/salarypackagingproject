@@ -49,7 +49,8 @@ const SalaryPackaging = () => {
         body: JSON.stringify(formData),
       });
       const data = await response.json();
-      setPackaging(data);
+      console.log("Result", data.totalSalaryPackagin);
+      setPackaging(data.totalSalaryPackagin);
     } catch (error) {
       console.error("Error:", error);
     }

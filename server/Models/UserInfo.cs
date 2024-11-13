@@ -1,11 +1,11 @@
-﻿namespace server.Dtos
+﻿namespace server.Models
 {
     public class UserInfo
     {
         public string CompanyType { get; set; }
         public string EmploymentType { get; set; }
         public string EducationLevel { get; set; }
-        public int Salary { get; set; }
-        public int? HoursWorked { get; set; }
+        public double Salary { get; set; }
+        public double HoursWorked { get; set; }
     }
 }
